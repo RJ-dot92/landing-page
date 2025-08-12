@@ -44,6 +44,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding-block: 100px;
+    gap: 35px;
 }
 
 .title {
@@ -104,7 +105,7 @@ button {
 
 .items {
     display: flex;
-    padding: 10px;
+    padding-bottom: 100px;
 }
 
 .i1,.i2,.i3,.i4 {
@@ -121,4 +122,87 @@ button {
     flex-grow: 1;
     border-radius: 8px;
     
+}
+
+.s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.random-texy {
+    color: #1F2937;
+    padding-block: 120px;
+    max-width: 1040px;
+}
+
+.mo {
+    color: #1f2937;
+    font-size: 36px;
+    font-family: "light italic";
+}
+
+h4 {
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.s4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 80px;
+    padding-inline: 120px;
+}
+
+
+.content-2 {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding-block: 40px;
+    padding-inline: 80px;
+    flex-grow: 1;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin-block: 40px;
+}
+
+.he-blue {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sub-blue {
+    color: #e5e7eb;
+}
+
+.blue-button {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+.bo {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding-block: 30px;
 }
